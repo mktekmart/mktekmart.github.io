@@ -1,36 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en"><!-- Basic -->
 <head>
-
-    <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
     <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
-
-    <!-- Site Metas -->
-    <title>Reataung Raita Indisk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Restaurang Raita Indisk</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
-    <!-- color -->
-    <link id="changeable-colors" rel="stylesheet" href="css/colors/orange.css" />
-
-    <!-- Modernizer -->
-    <script src="js/modernizer.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -40,698 +34,1120 @@
 </head>
 
 <body>
-    <div id="loader">
-        <div id="status"></div>
-    </div>
-    <div id="site-header">
-        <header id="header" class="header-block-top">
-            <div class="container">
-                <div class="row">
-                    <div class="main-menu">
-                        <!-- navbar -->
-                        <nav class="navbar navbar-default" id="mainNav">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <div class="logo">
-                                    <a class="navbar-brand js-scroll-trigger logo-header" href="#">
-                                        <img src="images/logo.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div id="navbar" class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a href="#banner">Hem</a></li>
-                                    <li><a href="#about">Om Oss</a></li>
-                                    <li><a href="#menu">Meny</a></li>
-                                    <li><a href="#gallery">Gallery</a></li>
-                                    <li><a href="#reservation">Hitta Oss</a></li>
-                                    <li><a href="#footer">Kontakta Oss</a></li>
-                                </ul>
-                            </div>
-                            <!-- end nav-collapse -->
-                        </nav>
-                        <!-- end navbar -->
-                    </div>
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container-fluid -->
-        </header>
-        <!-- end header -->
-    </div>
-	<!-- end site-header -->
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Hem</a></li>
+						<li class="nav-item"><a class="nav-link" href="menu.html">Meny</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">Om Oss</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Kontakta Oss</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
 	
-    <div id="banner" class="banner full-screen-mode parallax">
-        <div class="container pr">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="banner-static">
-                    <div class="banner-text">
-                        <div class="banner-cell">
-                            <h1>Käka med oss med <span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="Kompisar:Familj:Kollegor" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
-                            <h2>Upplev det bästa indiska och sushi köket </h2>
-                            <a href="#about">
-                                <div class="mouse"></div>
-                            </a>
-                        </div>
-                        <!-- end banner-cell -->
-                    </div>
-                    <!-- end banner-text -->
-                </div>
-                <!-- end banner-static -->
-            </div>
-            <!-- end col -->
-        </div>
-        <!-- end container -->
-    </div>
-    <!-- end banner -->
-
-    <div id="about" class="about-main pad-top-100 pad-bottom-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <h2 class="block-title"> About Us </h2>
-                        <h3>IT STARTED, QUITE SIMPLY, LIKE THIS...</h3>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco. </p>
-
-                        <p> Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, Aenean commodo ligula eget dolor penatibu set magnis is parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, pellentesque eu, pretium quis, sem. quat massa quis enim. Donec vitae sapien ut libero venenatis fauci Nullam quis ante. Etiam sit amet rci eget eros. </p>
-
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco. </p>
-                    </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <div class="about-images">
-                            <img class="about-main" src="images/about-main.jpg" alt="About Main Image">
-                            <img class="about-inset" src="images/about-inset.jpg" alt="About Inset Image">
-                        </div>
-                    </div>
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </div>
-
-    <div class="special-menu pad-top-100 parallax">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <h2 class="block-title color-white text-center"> Today's Special </h2>
-                        <h5 class="title-caption text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia,nostrud exercitation ullamco. </h5>
-                    </div>
-                    <div class="special-box">
-                        <div id="owl-demo">
-                            <div class="item item-type-zoom">
-                                <a href="#" class="item-hover">
-                                    <div class="item-info">
-                                        <div class="headline">
-                                            SALMON STEAK
-                                            <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item-img">
-                                    <img src="images/special-menu-1.jpg" alt="sp-menu">
-                                </div>
-                            </div>
-                            <div class="item item-type-zoom">
-                                <a href="#" class="item-hover">
-                                    <div class="item-info">
-                                        <div class="headline">
-                                            ITALIAN PIZZA
-                                            <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item-img">
-                                    <img src="images/special-menu-2.jpg" alt="sp-menu">
-                                </div>
-                            </div>
-                            <div class="item item-type-zoom">
-                                <a href="#" class="item-hover">
-                                    <div class="item-info">
-                                        <div class="headline">
-                                            VEG. ROLL
-                                            <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item-img">
-                                    <img src="images/special-menu-3.jpg" alt="sp-menu">
-                                </div>
-                            </div>
-                            <div class="item item-type-zoom">
-                                <a href="#" class="item-hover">
-                                    <div class="item-info">
-                                        <div class="headline">
-                                            SALMON STEAK
-                                            <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item-img">
-                                    <img src="images/special-menu-1.jpg" alt="sp-menu">
-                                </div>
-                            </div>
-                            <div class="item item-type-zoom">
-                                <a href="#" class="item-hover">
-                                    <div class="item-info">
-                                        <div class="headline">
-                                            VEG. ROLL
-                                            <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item-img">
-                                    <img src="images/special-menu-2.jpg" alt="sp-menu">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end special-box -->
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </div>
-    <!-- end special-menu -->
-
-    <div id="menu" class="menu-main pad-top-100 pad-bottom-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <h2 class="block-title text-center">
-						Våra Meny
-					</h2>
-                        <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                    </div>
-                    <div class="tab-menu">
-                        <div class="slider slider-nav">
-                            <div class="tab-title-menu">
-                                <h2>Förrätter</h2>
-                                <p> <i class="flaticon-canape"></i> </p>
-                            </div>
-                            <div class="tab-title-menu">
-                                <h2>Sizzlarrätter</h2>
-                                <p> <i class="flaticon-dinner"></i> </p>
-                            </div>
-                            <div class="tab-title-menu">
-                                <h2>Tikka Masalarätter</h2>
-                                <p> <i class="flaticon-desert"></i> </p>
-                            </div>
-                            <div class="tab-title-menu">
-                                <h2>Kormarätter</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
-                            </div>
-							<div class="tab-title-menu">
-                                <h2>Bhuna</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
-                            </div>
-							<div class="tab-title-menu">
-                                <h2>Baltirätter</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
-                            </div>
-							<div class="tab-title-menu">
-                                <h2>Naga</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
-                            </div>
-							<div class="tab-title-menu">
-                                <h2>Raita Special</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
-                            </div>
-							<div class="tab-title-menu">
-                                <h2>Biryanirätter</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
-                            </div>
-							<div class="tab-title-menu">
-                                <h2>Vegetariska Rätter</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
-                            </div>
-							<div class="tab-title-menu">
-                                <h2>Indiskt Bröd</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
-                            </div>
-							<div class="tab-title-menu">
-                                <h2>Efterrätter</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
-                            </div>
-							<div class="tab-title-menu">
-                                <h2>Dryck</h2>
-                                <p> <i class="flaticon-coffee"></i> </p>
-                            </div>
-                        </div>
-                        <div class="slider slider-single">
-                            <div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-01.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>GARLIC BREAD</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$8.5</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-02.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>MIXED SALAD</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$25</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-03.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>BBQ CHICKEN WINGS</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$10</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                            </div>
-                            <div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-04.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>MEAT FEAST PIZZA</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$5</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-05.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>CHICKEN TIKKA MASALA</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$15</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-06.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>SPICY MEATBALLS</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$6.5</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                            </div>
-                            <div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-07.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>CHOCOLATE FUDGECAKE</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$4.5</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-08.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>CHICKEN TIKKA MASALA</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$9.5</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-09.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>CHICKEN TIKKA MASALA</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$10</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                            </div>
-                            <div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-10.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>MEAT FEAST PIZZA</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$12.5</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-09.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>CHICKEN TIKKA MASALA</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$9.5</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-08.jpg" alt="" class="img-responsive">
-                                        <div>
-                                            <h3>CHICKEN TIKKA MASALA</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$5.5</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end tab-menu -->
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </div>
-    <!-- end menu -->
+	<!-- Start slides -->
+	<div id="slides" class="cover-slides">
+		<ul class="slides-container">
+			<li class="text-center">
+				<img src="images/slider-01.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Välkommen till <br> Restaurang Raita Indisk</strong></h1>
+							<p class="m-b-40">Vi serverar den bästa och autentiska indiska maten i Stockholm. Besök oss för att uppleva smaken av Indien.</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-center">
+				<img src="images/slider-02.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Välkommen till <br> Restaurang Raita Indisk</strong></h1>
+							<p class="m-b-40">Vi serverar den bästa och autentiska indiska maten i Stockholm. Besök oss för att uppleva smaken av Indien.</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-center">
+				<img src="images/slider-03.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Välkommen till <br> Restaurang Raita Indisk</strong></h1>
+							<p class="m-b-40">Vi serverar den bästa och autentiska indiska maten i Stockholm. Besök oss för att uppleva smaken av Indien.</p>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="slides-navigation">
+			<a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	<!-- End slides -->
 
 
-    <div id="reservation" class="reservations-main pad-top-100 pad-bottom-100">
-        <div class="container">
-            <div class="row">
-                <div class="form-reservations-box">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <h2 class="block-title text-center">
-						Reservations			
-					</h2>
-                        </div>
-                        <h4 class="form-title">BOOKING FORM</h4>
-                        <p>PLEASE FILL OUT ALL REQUIRED* FIELDS. THANKS!</p>
+	
+	<!-- Start Menu -->
+	<div class="menu-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>Våra Meny</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+							<button data-filter=".popular">Populär</button>
+							<button data-filter=".forratter">Förrätter</button>
+							<button data-filter=".sizzlarratter">Sizzlarrätter</button>
+							<button data-filter=".tikkamasala">Tikka Masalarätter</button>
+							<button data-filter=".kormaratter">Kormarätter</button>
+							<button data-filter=".karai">Karairätter</button>
+							<button data-filter=".bhuna">Bhuna</button>
+							<button data-filter=".baltiratter">Baltirätter</button>
+							<button data-filter=".nagaratter">Naga</button>
+							<button data-filter=".raitaspecial">Raita Special</button>
+							<button data-filter=".biryani">Biryanirätter</button>
+							<button data-filter=".vegetariskratter">Vegetariska Rätter</button>
+							<button data-filter=".naanbrod">Indiskt Bröd</button>
+							<button data-filter=".sushi">Sushi</button>
+							<button data-filter=".efterratter">Efterrätter</button>
+							<button data-filter=".dryck">Dryck</button>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+			<div class="row special-list">
+				<div class="col-lg-4 col-md-6 special-grid popular">
+					<div class="gallery-single fix">
+						<img src="images/img-01.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Garlic Chicken Sizzlar</h4>
+							<p>Kycklingfilé marinerad i färskpressad vitlök, ingefära och yoghurt. Grillas i lerugn.</p>
+							<h5> 169 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid popular">
+					<div class="gallery-single fix">
+						<img src="images/img-02.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Panir Butter Masala</h4>
+							<p>Hemgjord färskost tillagad med tomatsås.</p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid popular">
+					<div class="gallery-single fix">
+						<img src="images/img-03.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Garlic Chicken Tikka Masala</h4>
+							<p>Grillad kycklingfilé med vitlök, tillagad med mild tomatsås och cashewnötter.</p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
 
-                        <form id="contact-form" method="post" class="reservations-box" name="contactform" action="mail.php">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-box">
-                                    <input type="text" name="form_name" id="form_name" placeholder="Name" required="required" data-error="Firstname is required.">
-                                </div>
-                            </div>
-                            <!-- end col -->
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-box">
-                                    <input type="email" name="email" id="email" placeholder="E-Mail ID" required="required" data-error="E-mail id is required.">
-                                </div>
-                            </div>
-                            <!-- end col -->
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-box">
-                                    <input type="text" name="phone" id="phone" placeholder="contact no.">
-                                </div>
-                            </div>
-                            <!-- end col -->
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-box">
-                                    <select name="no_of_persons" id="no_of_persons" class="selectpicker">
-                                        <option selected disabled>No. Of persons</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <!-- end col -->
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-box">
-                                    <input type="text" name="date-picker" id="date-picker" placeholder="Date" required="required" data-error="Date is required." />
-                                </div>
-                            </div>
-                            <!-- end col -->
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-box">
-                                    <input type="text" name="time-picker" id="time-picker" placeholder="Time" required="required" data-error="Time is required." />
-                                </div>
-                            </div>
-                            <!-- end col -->
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-box">
-                                    <select name="preferred_food" id="preferred_food" class="selectpicker">
-                                        <option selected disabled>preferred food</option>
-                                        <option>Indian</option>
-                                        <option>Continental</option>
-                                        <option>Mexican</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <!-- end col -->
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-box">
-                                    <select name="occasion" id="occasion" class="selectpicker">
-                                        <option selected disabled>Occasion</option>
-                                        <option>Wedding</option>
-                                        <option>Birthday</option>
-                                        <option>Anniversary</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <!-- end col -->
+				<div class="col-lg-4 col-md-6 special-grid popular">
+					<div class="gallery-single fix">
+						<img src="images/img-03.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Chicken Tikka Butter Masala</h4>
+							<p>Grillad kycklingfilé tillagad i mild tomat- och cashewnötsås.</p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
 
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="reserve-book-btn text-center">
-                                    <button class="hvr-underline-from-center" type="submit" value="SEND" id="submit">BOOK MY TABLE </button>
-                                </div>
-                            </div>
-                            <!-- end col -->
-                        </form>
-                        <!-- end form -->
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end reservations-box -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </div>
-    <!-- end reservations-main -->
+				<div class="col-lg-4 col-md-6 special-grid popular">
+					<div class="gallery-single fix">
+						<img src="images/img-03.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Kyckling Korma</h4>
+							<p></p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
 
-    <div id="footer" class="footer-main">
-        <div class="footer-news pad-top-100 pad-bottom-70 parallax">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <h2 class="ft-title color-white text-center"> Newsletter </h2>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </div>
-                        <form>
-                            <input type="email" placeholder="Enter your e-mail id">
-                            <a href="#" class="orange-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
-                        </form>
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end footer-news -->
-        <div class="footer-box pad-top-70">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-in-main">
-                        <div class="footer-logo">
-                            <div class="text-center">
-                                <img src="images/logo.png" alt="" />
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-a">
-                                <h3>About Us</h3>
-                                <p>Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes.</p>
-                                <ul class="socials-box footer-socials pull-left">
-                                    <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa  fa-facebook"></i></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa fa-twitter"></i></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa fa-google-plus"></i></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa fa-pinterest"></i></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa fa-linkedin"></i></div>
-                                        </a>
-                                    </li>
-                                </ul>
+				<div class="col-lg-4 col-md-6 special-grid popular">
+					<div class="gallery-single fix">
+						<img src="images/img-03.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Palak Paneer</h4>
+							<p>Bladspenat fräst i smör med hackad smålök, färsk vitlök och hemgjord ost.</p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid forratter">
+					<div class="gallery-single fix">
+						<img src="images/img-04.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Vegetarisk Samosa</h4>
+							<p>Vegetarisk pirog fylld med säsongens grönsaker. Serveras med myntasås.</p>
+							<h5> 50 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid forratter">
+					<div class="gallery-single fix">
+						<img src="images/img-05.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Chicken Pakora</h4>
+							<p>Marinerade kycklingbitar panerade i kikärtsmjöl som sedan friterats. Serveras på salladsbädd med myntasås.</p>
+							<h5> 64 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid forratter">
+					<div class="gallery-single fix">
+						<img src="images/img-06.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Papadam</h4>
+							<p>Stora krispiga chips gjorda av linsmjöl. Serveras med mango chutney.</p>
+							<h5> 40 kr</h5>
+						</div>
+					</div>
+				</div>
 
-                            </div>
-                            <!-- end footer-box-a -->
-                        </div>
-                        <!-- end col -->
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-b">
-                                <h3>New Menu</h3>
-                                <ul>
-                                    <li><a href="#">Italian Bomba Sandwich</a></li>
-                                    <li><a href="#">Double Dose of Pork Belly</a></li>
-                                    <li><a href="#">Spicy Thai Noodles</a></li>
-                                    <li><a href="#">Triple Truffle Trotters</a></li>
-                                </ul>
-                            </div>
-                            <!-- end footer-box-b -->
-                        </div>
-                        <!-- end col -->
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-c">
-                                <h3>Contact Us</h3>
-                                <p>
-                                    <i class="fa fa-map-signs" aria-hidden="true"></i>
-                                    <span>6 E Esplanade, St Albans VIC 3021, Australia</span>
-                                </p>
-                                <p>
-                                    <i class="fa fa-mobile" aria-hidden="true"></i>
-                                    <span>
-									+91 80005 89080 
-								</span>
-                                </p>
-                                <p>
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span><a href="#">support@foodfunday.com</a></span>
-                                </p>
-                            </div>
-                            <!-- end footer-box-c -->
-                        </div>
-                        <!-- end col -->
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-d">
-                                <h3>Opening Hours</h3>
+				<div class="col-lg-4 col-md-6 special-grid forratter">
+					<div class="gallery-single fix">
+						<img src="images/img-05.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Prawn Pakora</h4>
+							<p>Marinerade stora tigerräkor som paneras i kikärtsmjöl och sedan friterats. Serveras på salladsbädd med myntasås.</p>
+							<h5> 85 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid forratter">
+					<div class="gallery-single fix">
+						<img src="images/img-06.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Paneer Pakora</h4>
+							<p>Marinerad färskost, panerad i kikärtsmjöl som sedan friterats. Serveras på salladsbädd med myntasås.</p>
+							<h5> 70 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid sizzlarratter">
+					<div class="gallery-single fix">
+						<img src="images/img-07.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Prawn Tikka Sizzlar</h4>
+							<p>Skalade tigerräkor marinerade i färskpressad vitlök, ingefära, citron och yoghurt. Grillas i lerugn.</p>
+							<h5> 195 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid sizzlarratter">
+					<div class="gallery-single fix">
+						<img src="images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Garlic Chicken Sizzlar</h4>
+							<p>Kycklingfilé marinerad i färskpressad vitlök, ingefära och yoghurt. Grillas i lerugn.</p>
+							<h5> 169 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid sizzlarratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Mixad Sizzlar</h4>
+							<p>Marinerad kycklingfilé, lammfilé och tigerräkor. Grillas i lerugn.</p>
+							<h5> 199 kr</h5>
+						</div>
+					</div>
+				</div>
 
-                                <ul>
-                                    <li>
-                                        <p>Monday - Thursday </p>
-                                        <span> 11:00 AM - 9:00 PM</span>
-                                    </li>
-                                    <li>
-                                        <p>Friday - Saturday </p>
-                                        <span>  11:00 AM - 5:00 PM</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- end footer-box-d -->
-                        </div>
-                        <!-- end col -->
-                    </div>
-                    <!-- end footer-in-main -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-            <div id="copyright" class="copyright-main">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <h6 class="copy-title"> Copyright &copy; 2017 Food Funday is powered by <a href="#" target="_blank"></a> </h6>
-                        </div>
-                    </div>
-                    <!-- end row -->
-                </div>
-                <!-- end container -->
-            </div>
-            <!-- end copyright-main -->
-        </div>
-        <!-- end footer-box -->
-    </div>
-    <!-- end footer-main -->
+								<div class="col-lg-4 col-md-6 special-grid sizzlarratter">
+					<div class="gallery-single fix">
+						<img src="images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Lamm Tikka Sizzlar</h4>
+							<p>Lammfilé marinerad i kashmiri masala pasta. Grillas i lerugn.</p>
+							<h5> 185 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid sizzlarratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Chicken Tikka Sizzlar</h4>
+							<p>Kycklingfilé marinerad i tikka masala pasta. Grillas i lerugn.</p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
 
-    <a href="#" class="scrollup" style="display: none;">Scroll</a>
+				<div class="col-lg-4 col-md-6 special-grid sizzlarratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Lax Sizzlar</h4>
+							<p>Marinerad laxfilé med stekta grönsaker och färsk mango.</p>
+							<h5> 189 kr</h5>
+						</div>
+					</div>
+				</div>
 
-    <section id="color-panel" class="close-color-panel">
-        <a class="panel-button gray2"><i class="fa fa-cog fa-spin fa-2x"></i></a>
-        <!-- Colors -->
-        <div class="segment">
-            <h4 class="gray2 normal no-padding">Color Scheme</h4>
-            <a title="orange" class="switcher orange-bg"></a>
-            <a title="strong-blue" class="switcher strong-blue-bg"></a>
-            <a title="moderate-green" class="switcher moderate-green-bg"></a>
-            <a title="vivid-yellow" class="switcher vivid-yellow-bg"></a>
-        </div>
-    </section>
+								<div class="col-lg-4 col-md-6 special-grid tikkamasala">
+					<div class="gallery-single fix">
+						<img src="images/img-07.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Panir Butter Masala</h4>
+							<p>Hemgjord färskost tillagad med tomatsås.</p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid tikkamasala">
+					<div class="gallery-single fix">
+						<img src="images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Garlic Chicken Tikka Masala</h4>
+							<p>Grillad kycklingfilé med vitlök, tillagad med mild tomatsås och cashewnötter.</p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid tikkamasala">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>King Prawn Tikka Masala</h4>
+							<p>Kungsräkor tillagade med tomatpuré, tamarind och koriander. Mellanstark.</p>
+							<h5> 199 kr</h5>
+						</div>
+					</div>
+				</div>
 
-    <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+								<div class="col-lg-4 col-md-6 special-grid tikkamasala">
+					<div class="gallery-single fix">
+						<img src="images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Lamm Tikka Butter Masala</h4>
+							<p>Grillad lammfilé tillagad i mild tomat- och cashewnötsås.</p>
+							<h5> 175 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid tikkamasala">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Chicken Tikka Butter Masala</h4>
+							<p>Grillad kycklingfilé tillagad i mild tomat- och cashewnötsås.</p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid tikkamasala">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Mix Tikka Masala</h4>
+							<p>Grillad kycklingfilé, scampi och ost, tillagade med mild tomatsås och cashewnötter.</p>
+							<h5> 185 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid kormaratter">
+					<div class="gallery-single fix">
+						<img src="images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Scampi Korma</h4>
+							<p></p>
+							<h5> 195 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid kormaratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Kyckling Korma</h4>
+							<p></p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid kormaratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Lamm Korma</h4>
+							<p></p>
+							<h5> 175 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid karai">
+					<div class="gallery-single fix">
+						<img src="images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Scampi Karai</h4>
+							<p></p>
+							<h5> 195 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid karai">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Kyckling Karai</h4>
+							<p></p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid karai">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Lamm Karai</h4>
+							<p></p>
+							<h5> 175 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid bhuna">
+					<div class="gallery-single fix">
+						<img src="images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Lamm Bhuna</h4>
+							<p></p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid bhuna">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Scampi Bhuna</h4>
+							<h5> 189 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid bhuna">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Kyckling Bhuna</h4>
+							<p></p>
+							<h5> 155 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid baltiratter">
+					<div class="gallery-single fix">
+						<img src="images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Lamm Balti</h4>
+							<h5> 169 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid baltiratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Scampi Balti</h4>
+							<p></p>
+							<h5> 189 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid baltiratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Kyckling Balti</h4>
+							<p></p>
+							<h5> 159 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid nagaratter">
+					<div class="gallery-single fix">
+						<img src="images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Kyckling Naga</h4>
+							<p></p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid nagaratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Scampi Naga</h4>
+							<p></p>
+							<h5> 189 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid nagaratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Lamm Naga</h4>
+							<p></p>
+							<h5> 175 kr</h5>
+						</div>
+					</div>
+				</div>
+
+								<div class="col-lg-4 col-md-6 special-grid raitaspecial">
+					<div class="gallery-single fix">
+						<img src="images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Lamm Nehari</h4>
+							<p>Långkokt lamm i speciell kryddblandning och sås, toppad med ingefära, koriander och grön chili.</p>
+							<h5> 209 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid raitaspecial">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Panir Butter Masala Special</h4>
+							<p>Friterade färskostbollar med färska kryddor och krossade cashewnötter i tomatsås.</p>
+							<h5> 175 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid raitaspecial">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Shahi Lamm</h4>
+							<p>Lammfilé med purjolök, tomat, ingefära, vitlök, koriander, senap och vår egen kryddsås.</p>
+							<h5> 179 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid raitaspecial">
+					<div class="gallery-single fix">
+						<img src="images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Chicken Tikka Masala Special</h4>
+							<p>Marinerad och grillad kycklingfilé, friterad i besanmjöl och tillagad med cashewnötter och tomatsås.</p>
+							<h5> 175 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid raitaspecial">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Mustard Lamm</h4>
+							<p>Senapsmarinerat lamm med vitlök, koriander, ingefära och curry.</p>
+							<h5> 185 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid raitaspecial">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Mango Chicken Balti</h4>
+							<p>Grillade kycklingfilébitar tillagade med baltisås och mango.</p>
+							<h5> 185 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid biryani">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Lamm Biryani</h4>
+							<p>Stekt lamm med saffranris.</p>
+							<h5> 195 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid biryani">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Chicken Biryani</h4>
+							<p>Stekta kycklingfiléer med saffranris.</p>
+							<h5> 185 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid vegetariskratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Labra</h4>
+							<p>Färska blandade grönsaker tillagas med linser.</p>
+							<h5> 169 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid vegetariskratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Palak Paneer</h4>
+							<p>Bladspenat fräst i smör med hackad smålök, färsk vitlök och hemgjord ost.</p>
+							<h5> 165 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid vegetariskratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Vegetarisk Sabji</h4>
+							<p>Färska säsongens grönsaker tillagade i currysås.</p>
+							<h5> 159 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid vegetariskratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Vegetarisk Malai</h4>
+							<p>Färska säsongens grönsaker tillagade i currysås.</p>
+							<h5> 169 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid naanbrod">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Masala Naan</h4>
+							<p></p>
+							<h5> 40 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid naanbrod">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Peshwari Naan</h4>
+							<p>Sött naanbröd med pistagemandlar och russin.</p>
+							<h5> 45 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid naanbrod">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Naanbröd</h4>
+							<p></p>
+							<h5> 30 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid naanbrod">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Vitlöksnaan</h4>
+							<p>Naanbröd med vitlök.</p>
+							<h5> 35 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid naanbrod">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Paneer Naan</h4>
+							<p>Inbakat naanbröd fylld med färskost.</p>
+							<h5> 40 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>9 Bitar - 3 st Lax, 1 st Tuna, 1 st Räkor, 1 st Avocado, 3 st Rulle</h4>
+							<p></p>
+							<h5> 110 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>12 Bitar - 4 st Lax, 2 st Tuna, 2 st Räkor, 1 st Avocado, 3 st Rulle</h4>
+							<p></p>
+							<h5> 125 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>16 Bitar - 5 st Lax, 2 st Tuna, 2 st Räkor, 2 st Avocado, 5 st Rulle</h4>
+							<p></p>
+							<h5> 140 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>9 Bitar - 2 st Tofu, 1 st Ägg, 3 st Avocado, 3 st Rulle</h4>
+							<p></p>
+							<h5> 85 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>12 Bitar - 3 st Tofu, 2 st Ägg, 4 st Avocado, 3 st Rulle</h4>
+							<p></p>
+							<h5> 105 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>16 Bitar - 4 st Tofu, 2 st Ägg, 5 st Avocado, 5 st Rulle</h4>
+							<p></p>
+							<h5> 120 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>10 Bitar Lax Nagiri</h4>
+							<p></p>
+							<h5> 120 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>10 Bitar Tuna Nagiri</h4>
+							<p></p>
+							<h5> 130 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>10 Bitar Räkor Nagiri</h4>
+							<p></p>
+							<h5> 125 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>10 Bitar Avocado Nagiri</h4>
+							<p></p>
+							<h5> 110 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>10 Bitar Friter Tempura Rullor</h4>
+							<p>Räkor, Avocado, Gurka, Chilli och Mayo</p>
+							<h5> 120 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>10 Bitar Lax Rullor</h4>
+							<p>Lax, Gurka, Avocado, Morot, Purjolök, Chilli och Mayo</p>
+							<h5> 105 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>10 Bitar Tuna Rullor</h4>
+							<p>Tuna fisk, Gurka, Avocado, Morot, Purjolök, Chilli och Mayo</p>
+							<h5> 115 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>10 Bitar Räkor Rullor</h4>
+							<p>Räkor, Gurka, Avocado, Morot, Purjolök, Chilli och Mayo</p>
+							<h5> 110 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>10 Bitar California Rullor</h4>
+							<p>Surimi, Ägg, Gurka, Avocado, Purjolök, Japanska Mayo</p>
+							<h5> 110 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>10 Bitar Veg. Rullor</h4>
+							<p>Gurka, Avocado, Morot, Rätika, Purjolök, Japanska Mayo</p>
+							<h5> 99 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Yaki Niko</h4>
+							<p>Stek skivad entrecote med yaki niko sås med ris och salad.</p>
+							<h5> 95 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Yaki Tori</h4>
+							<p>6 st grillade kycklingspett med ris och salad.</p>
+							<h5> 90 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Karage Kyckling</h4>
+							<p>Friterade kyckling, ris, salad och chilli mayo.</p>
+							<h5> 110 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid sushi">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Vårrullor</h4>
+							<p>10 Bitar veg Vårrullor med Sweet Chilli sås.</p>
+							<h5> 85 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid efterratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Cheesecake</h4>
+							<p></p>
+							<h5> 45 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid efterratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Mango Lassi</h4>
+							<p>Yoghurtdryck med mango.</p>
+							<h5> 40 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid efterratter">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Tiramisu</h4>
+							<p></p>
+							<h5> 40 kr</h5>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 col-md-6 special-grid dryck">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Loka Naturell 33 cl</h4>
+							<p></p>
+							<h5> 20 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid dryck">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Loka Citron 33 cl</h4>
+							<p></p>
+							<h5> 20 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid dryck">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Coca-Cola 33 cl</h4>
+							<p></p>
+							<h5> 20 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid dryck">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Sprite 33 cl</h4>
+							<p></p>
+							<h5> 20 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid dryck">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Coca-Cola Zero 33 cl</h4>
+							<p></p>
+							<h5> 20 kr</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 special-grid dryck">
+					<div class="gallery-single fix">
+						<img src="images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Fanta 33 cl</h4>
+							<p></p>
+							<h5> 20 kr</h5>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- End Menu -->
+		</div>
+	</div>
+	<!-- End Menu -->
+	
+
+	
+	
+	<!-- Start Contact info -->
+	<div class="contact-imfo-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<i class="fa fa-volume-control-phone"></i>
+					<div class="overflow-hidden">
+						<h4>Telefon</h4>
+						<a href="tel:+4684648866"><p>+46 846 488 66</p></a>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<i class="fa fa-map-marker"></i>
+					<div class="overflow-hidden">
+						<h4>Adress</h4>
+						<p class="lead">
+							Frihamnsgatan 52, 115 56 Stockholm
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact info -->
+	
+	<!-- Start Footer -->
+	<footer class="footer-area bg-f">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<h3>Om Oss</h3>
+					<p>Restaurang Raita Indisk har börjat servera sina gäster sedan 2019. Vi har startat verksamheten med motivet att servera äkta indiska mat till våra uppskattade gäster. Vi samlar in kryddor direkt från Indien som vi använder i våra mat för att ge våra kunder den bästa smaken av indiska mat. Vi började även servera sushi från 2021.</p>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<h3>Öpettider</h3>
+					<p><span class="text-color">Mondag till Fredag:</span> 10 PM - 9 PM</p>
+					<p><span class="text-color">Lördag och Sondag:</span> 1 PM - 9 PM</p>
+				</div>
+				<div class="col-lg-10 col-md-6">
+					<h3>Kontakta Oss</h3>
+					<p class="lead">Frihamnsgatan 52, 115 56 Stockholm</p>
+						<p><a href="tel:+4684648866">+46 846 488 66</p></a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="company-name">All Rights Reserved. &copy; 2021 <a href="#">Restaurang Raita Indisk |</a> Designed By : 
+					<a href="http://www.mktekmart.com/">MK Tekmart</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<!-- End Footer -->
+	
+	<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
+	<script src="js/jquery.superslides.min.js"></script>
+	<script src="js/images-loded.min.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/baguetteBox.min.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
     <script src="js/custom.js"></script>
 </body>
-
 </html>
